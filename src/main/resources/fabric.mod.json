@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "universal_elytra_chestplates",
+  "version": "${version}",
+  "name": "Universal Elytra Chestplates",
+  "description": "A good pair of elytra should know how to stick itself onto chestplates no matter what chestplates they are :)",
+  "authors": [
+    "Arqiu-owo"
+  ],
+  "license": ["LGPL-3.0-only", "CC-BY-NC-SA-4.0"],
+  "environment": "*",
+  "icon": "assets/universal_elytra_chestplates/icon.png",
+  "entrypoints": {
+    "main": [
+      "dev.arqiu.uec.UniversalElytraChestplates"
+    ],
+    "client": [
+      "dev.arqiu.uec.client.UecClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "uec-common.mixins.json",
+      "environment": "*"
+    },
+    {
+      "config": "uec-client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

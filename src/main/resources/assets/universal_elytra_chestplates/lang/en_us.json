@@ -1,0 +1,8 @@
+{
+  "item.universal_elytra_chestplates.name.merged": "%1$s with %2$s",
+  "item.universal_elytra_chestplates.tooltip.glider": "Elytra durability: %1$s / %2$s",
+  "item.universal_elytra_chestplates.tooltip.merge_hint": "Toss this onto a smithing table together with a chestplate to fuse",
+  "item.universal_elytra_chestplates.tooltip.split_hint": "Sneak + Use to separate the elytra back out",
+  "modmenu.summaryTranslation.universal_elytra_chestplates": "A good pair of elytra should know how to stick itself onto chestplates no matter what chestplates they are :)",
+  "modmenu.descriptionTranslation.universal_elytra_chestplates": "A good pair of elytra should know how to stick itself onto chestplates no matter what chestplates they are :)"
+}
