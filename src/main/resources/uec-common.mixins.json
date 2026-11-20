@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arqiu.uec.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EquippableChestResyncMixin",
+    "ItemEntityTableFusionMixin",
+    "ItemStackFlightWearMixin",
+    "LivingEntityElytraDurabilityMixin",
+    "SmithingTransformRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
