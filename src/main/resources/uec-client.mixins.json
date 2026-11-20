@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arqiu.uec.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CapeLayerElytraChestplateMixin",
+    "ElytraChestplateIconMixin",
+    "UecItemStackRenderStateAccess",
+    "UecLayerRenderStateAccess",
+    "WingsLayerElytraAssetMixin",
+    "ModListSearchMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

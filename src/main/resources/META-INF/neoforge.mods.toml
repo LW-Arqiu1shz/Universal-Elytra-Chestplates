@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[12,)"
+# NeoForge 要求必须写 license，缺了整个 jar 会被判为无效模组文件
+license = "LGPL-3.0-only (code), CC-BY-NC-SA-4.0 (assets)"
+
+[[mods]]
+modId = "universal_elytra_chestplates"
+version = "${mod_version}"
+displayName = "Universal Elytra Chestplates"
+authors = "Arqiu-owo"
+description = '''A good pair of elytra should know how to stick itself onto chestplates no matter what chestplates they are :)'''
+logoFile = "assets/universal_elytra_chestplates/icon.png"
+
+[[mixins]]
+config = "uec-common.mixins.json"
+
+[[mixins]]
+config = "uec-client.mixins.json"
+
+[[dependencies.universal_elytra_chestplates]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3.0.51-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.universal_elytra_chestplates]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3,26.4)"
+ordering = "NONE"
+side = "BOTH"
