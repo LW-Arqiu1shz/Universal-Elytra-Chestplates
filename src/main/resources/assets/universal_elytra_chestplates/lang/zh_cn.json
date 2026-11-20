@@ -1,0 +1,8 @@
+{
+  "item.universal_elytra_chestplates.name.merged": "加装%2$s的%1$s",
+  "item.universal_elytra_chestplates.tooltip.glider": "鞘翅耐久：%1$s / %2$s",
+  "item.universal_elytra_chestplates.tooltip.merge_hint": "和一件胸甲一起丢到锻造台顶部即可安装",
+  "item.universal_elytra_chestplates.tooltip.split_hint": "潜行+右键可拆下鞘翅",
+  "fml.menu.mods.info.displayname.universal_elytra_chestplates": "万能鞘翅胸甲",
+  "fml.menu.mods.info.description.universal_elytra_chestplates": "一双好的鞘翅需要学会自己粘在胸甲上，不管那是什么胸甲~"
+}

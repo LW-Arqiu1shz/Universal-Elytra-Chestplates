@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arqiu.uec.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommonHooksCombatWearMixin",
+    "EnchantmentHelperFlightWearMixin",
+    "EquippableChestResyncMixin",
+    "ItemEntityTableFusionMixin",
+    "LivingEntityElytraDurabilityMixin",
+    "SmithingTransformRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
